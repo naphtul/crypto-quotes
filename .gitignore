@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE and system files
+.idea/
+.DS_Store
+
+# App Script specific
+*.json
+!appsscript.json
+!package.json
+!package-lock.json
+!clasp.json
+
+# Build output
+dist/
+build/
+
+# Optional cache
+.cache/
+.eslintcache
